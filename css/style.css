@@ -130,6 +130,7 @@ header {
 }
 
 .system {
+    min-height: 900px;
     height: auto;
     padding-top:50px;
 }
@@ -191,6 +192,7 @@ footer {
     height: 15px;
     bottom: 0;
     background-color: rgba(85, 85, 85, 0.363);
+    position: fixed;
 }
 
 .message {
