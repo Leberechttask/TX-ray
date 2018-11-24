@@ -131,7 +131,7 @@ header {
 
 .system {
     height: auto;
-    margin-top:50px;
+    padding-top:50px;
 }
 
 .canvas {
