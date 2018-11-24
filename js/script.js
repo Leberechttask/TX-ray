@@ -1,4 +1,8 @@
 $(function() {
+    $('#system-name').click(function() {
+        window.location.href='../index.html';
+    });
+
     $('#setting-show').click(function() {
         $('#setting-modal').fadeIn();
     });
@@ -24,5 +28,5 @@ $(function() {
         $('#setting-train').text(train);
         $('#setting-date').text(date);
         $('#setting-time').text(time);
-    })
+    });
 });
