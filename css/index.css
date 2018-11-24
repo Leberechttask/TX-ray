@@ -38,7 +38,7 @@ header {
 .header-left {
     position: absolute;
     float: left;
-    cursor: default;
+    cursor: pointer;
 }
 
 .system-name {
