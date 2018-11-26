@@ -28,8 +28,7 @@ TX-ray
 
 ### table
 * データの取り出し  
-→大変。というか無理に近い。  
-#### ─ 代替案
-1. 時刻表データ手打ち(地獄だが３人で分担すればなんとか)  
-2. 時刻表データの購入(有料...)  
-→<https://www.navit-j.com/service/timetable.html>
+→提案1: jQueryのload関数でtable要素取り出し  
+https://www.plusdesign.co.jp/blog/?p=4832  
+→提案2: tableの各要素の取り出し(配列格納)  
+http://write-remember.com/program/javascript/get_table/  
