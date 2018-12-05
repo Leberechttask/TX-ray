@@ -31,4 +31,4 @@ http://write-remember.com/program/javascript/get_table/
 * 日程からテーブルを選択する  
 
 ### table
-*   
+* 入力情報と取り出したデータの条件比較  
