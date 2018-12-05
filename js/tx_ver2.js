@@ -1,7 +1,4 @@
-var cvs = document.createElement("canvas");
-cvs.width = 880;
-cvs.height = 640;
-document.getElementById("system-container").appendChild(cvs);
+var cvs = document.getElementById("system-container");
 var ctx = cvs.getContext("2d");
 
 var numTrain = 3;
