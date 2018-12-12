@@ -20,9 +20,6 @@ $(function() {
         if (date==="") {
             date="設定なし";
         }
-        if (time==="") {
-            time="設定なし";
-        }
         $('#setting-line').text(line);
         $('#setting-direction').text(direction);
         $('#setting-train').text(train);
