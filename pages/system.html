@@ -44,7 +44,13 @@
                             <option value="全車両">全車両</option>
                         </select>
                         <input class="form-control" id="choice-date" type="date" name="date">
-                        <input class="form-control" id="choice-time" type="time" name="time">
+                        <select class="form-control" name="time" id="choice-time">
+                            <option value="設定なし">撮りたい時刻帯を選択してください</option>
+                            <option value="朝焼け">朝焼け</option>
+                            <option value="昼間">昼間</option>
+                            <option value="夕焼け">夕焼け</option>
+                            <option value="夜景">夜景</option>
+                        </select>
                         <div class="close-modal" id="submit-btn">適用</div>
                     </form>
                 </div>
@@ -55,7 +61,7 @@
                 <div class="canvas">
                     <!-- canvasをonにする場合は以下をコメントアウト -->
                     <canvas id="system-container" width="880px" height="640px"></canvas>
-                    <!-- canvasをonにする場合は以下をコメント -->
+                    <!-- canvasをoffにする場合は以下をコメント -->
                     <!-- <img class="station-image" src="../img/station.png"> -->
                 </div>
                 <div class="information">
@@ -82,6 +88,7 @@
             <div class="clear"></div>
         </footer>
         <script type="text/javascript" src="../js/script.js"></script>
+		<script type="text/javascript" src="../js/GetCSV.js"></script>
         <script type="text/javascript" src="../js/tx_ver2.js"></script>
     </body>
 </html>
