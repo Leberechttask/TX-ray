@@ -25,16 +25,15 @@ TX-ray
 https://www.plusdesign.co.jp/blog/?p=4832  
 →提案2: tableの各要素の取り出し(配列格納)  
 http://write-remember.com/program/javascript/get_table/  
+🌸 取り出したデータをCSVに変換  
   
 ## 未実装
 ### Web
-* 時間のシークバーまたは調節ボタン  
+* Complete!
 
 ### canvas
 * 車種ごとの表示  
-* 日程からテーブルを選択する  
 * 入力情報と取り出したデータの条件比較  
 
 ### table
-* 取り出したデータをCSVに変換  
-
+* Complete!  
