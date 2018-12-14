@@ -15,6 +15,7 @@ $(function() {
         var line=document.getElementById("choice-line").value;
         var direction=document.getElementById("choice-direction").value;
         var train=document.getElementById("choice-train").value;
+		var station=document.getElementById("choice-station").value;
         var date=document.getElementById("choice-date").value;
         var time=document.getElementById("choice-time").value;
         if (date==="") {
@@ -23,6 +24,7 @@ $(function() {
         $('#setting-line').text(line);
         $('#setting-direction').text(direction);
         $('#setting-train').text(train);
+		$('#setting-station').text(station);
         $('#setting-date').text(date);
         $('#setting-time').text(time);
     });

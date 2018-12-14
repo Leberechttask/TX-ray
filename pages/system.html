@@ -39,9 +39,32 @@
                         </select>
                         <select class="form-control" name="train" id="choice-train">
                             <option value="設定なし">車種を選択してください</option>
-                            <option value="普通車両のみ">普通車両のみ</option>
-                            <option value="快速系車両のみ">快速系車両のみ</option>
-                            <option value="全車両">全車両</option>
+                            <option value="普通車両">普通車両</option>
+                            <option value="区間快速">区間快速</option>
+                            <option value="快速">快速</option>
+                        </select>
+                        <select class="form-control" name="station" id="choice-station">
+                            <option value="設定なし">駅を選択してください</option>
+                            <option value="秋葉原">秋葉原</option>
+                            <option value="新御徒町">新御徒町</option>
+                            <option value="浅草">浅草</option>
+                            <option value="南千住">南千住</option>
+                            <option value="北千住">北千住</option>
+                            <option value="青井">青井</option>
+                            <option value="六町">六町</option>
+                            <option value="八潮">八潮</option>
+                            <option value="三郷中央">三郷中央</option>
+                            <option value="南流山">南流山</option>
+                            <option value="流山セントラルパーク">流山セントラルパーク</option>
+                            <option value="流山おおたかの森">流山おおたかの森</option>
+                            <option value="柏の葉キャンパス">柏の葉キャンパス</option>
+                            <option value="柏たなか">柏たなか</option>
+                            <option value="守谷">守谷</option>
+                            <option value="みらい平">みらい平</option>
+                            <option value="みどりの">みどりの</option>
+                            <option value="万博記念公園">万博記念公園</option>
+                            <option value="研究学園">研究学園</option>
+                            <option value="つくば">つくば</option>
                         </select>
                         <input class="form-control" id="choice-date" type="date" name="date">
                         <select class="form-control" name="time" id="choice-time">
@@ -71,6 +94,7 @@
                                 <li class="setting-item">路線 :<div class="setting" id="setting-line">設定なし</div></li>
                                 <li class="setting-item">方面 :<div class="setting" id="setting-direction">設定なし</div></li>
                                 <li class="setting-item">車種 :<div class="setting" id="setting-train">設定なし</div></li>
+								<li class="setting-item">駅名 :<div class="setting" id="setting-station">設定なし</div></li>
                                 <li class="setting-item">日程 :<div class="setting" id="setting-date">設定なし</div></li>
                                 <li class="setting-item">時刻 :<div class="setting" id="setting-time">設定なし</div></li>
                             </ul>
